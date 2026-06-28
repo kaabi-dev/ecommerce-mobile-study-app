@@ -18,8 +18,5 @@
   "bugs": {
     "url": "https://github.com/kaabi-dev/ecommerce-mobile-study-app/issues"
   },
-  "homepage": "https://github.com/kaabi-dev/ecommerce-mobile-study-app#readme",
-  "devDependencies": {
-    "parcel": "^2.16.4"
-  }
+  "homepage": "https://github.com/kaabi-dev/ecommerce-mobile-study-app#readme"
 }
