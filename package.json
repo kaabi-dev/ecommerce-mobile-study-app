@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm install --prefix backend && npm install --prefix admin && npm run build --prefix admin",
-    "start": "npm run start --prefix backend"
+    "build": "npm install --prefix ./backend && npm install --prefix ./admin && npm run build --prefix a./dmin",
+    "start": "npm run start --prefix ./backend"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/kaabi-dev/ecommerce-mobile-study-app/issues"
   },
-  "homepage": "https://github.com/kaabi-dev/ecommerce-mobile-study-app#readme"
+  "homepage": "https://github.com/kaabi-dev/ecommerce-mobile-study-app#readme",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
 }
